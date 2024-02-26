@@ -1,54 +1,54 @@
-//Book Class: Represents a Book
+// //Book Class: Represents a Book
 
-class Book {
-    constructor(title, author, isbn) {
-        this.title = title;
-        this.author = author;
-        this.isbn = isbn;
-    }
-}
+// class Book {
+//     constructor(title, author, isbn) {
+//         this.title = title;
+//         this.author = author;
+//         this.isbn = isbn;
+//     }
+// }
 
-//UI Class: Handle UI Tasks
-class UI {
-    static displayBooks() {
-        const StoredBooks = [
-            {
-                title: 'Book One',
-                author: 'Jane Doe',
-                isbn: '45545'
-            },
-            {
-                title: 'Book two',
-                author: 'Jane Doe',
-                isbn: '45547'
-            }
-        ];
+// //UI Class: Handle UI Tasks
+// class UI {
+//     static displayBooks() {
+//         const StoredBooks = [
+//             {
+//                 title: 'Book One',
+//                 author: 'Jane Doe',
+//                 isbn: '45545'
+//             },
+//             {
+//                 title: 'Book two',
+//                 author: 'Jane Doe',
+//                 isbn: '45547'
+//             }
+//         ];
 
-        const books = StoredBooks;
-        books.forEach((book) => UI.addBookToList(book));
-    }
+//         const books = StoredBooks;
+//         books.forEach((book) => UI.addBookToList(book));
+//     }
 
     
 
-    static addBookToList(book) {
-        const list = document.querySelector('#book-list');
-        const row = document.createElement('tr');
+//     static addBookToList(book) {
+//         const list = document.querySelector('#book-list');
+//         const row = document.createElement('tr');
 
-        row.innerHTML = `
-        <td>${book.title}</td>
-        <td>${book.author}</td>
-        <td>${book.isbn}</td>
-        <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
-        `;
+//         row.innerHTML = `
+//         <td>${book.title}</td>
+//         <td>${book.author}</td>
+//         <td>${book.isbn}</td>
+//         <td><a href="#" class="btn btn-danger btn-sm delete">X</a></td>
+//         `;
 
-        list.appendChild(row);
-    }
-}
+//         list.appendChild(row);
+//     }
+// }
 
 //Store Class: Handles Storage
 
 //Event: Display Books
-document.addEventListener('DOMContentLoaded', UI.addBookToList);
+// document.addEventListener('DOMContentLoaded', UI.addBookToList);
 //Event: Add a Book
 
 //Event: Remove a Book
@@ -70,14 +70,33 @@ document.addEventListener('DOMContentLoaded', UI.addBookToList);
 // }
 // printNumbers()
 
-function printArray(arr){
-    for(var i=0; i<arr.length; i++){
-        console.log("i am from i" + "  " + arr[i])
-        for(var j=0; j<arr[0].length; j++){
-            console.log(arr[i][j])
-// console.log(j)        
-        }
+// function printArray(arr){
+//     for(var i=0; i<arr.length; i++){
+//         console.log("i am from i" + "  " + arr[i])
+//         for(var j=0; j<arr[0].length; j++){
+//             console.log(arr[i][j])
+// // console.log(j)        
+//         }
+//     }
+// }
+// var arr = [[1, 3, 5, 7, 8, 6], [4, 8, 7], [5, 6], [6, 8, 5]]
+// printArray(arr)
+// function EvenNumber(arr) {
+//     for ( var i=0; i<arr.length; i+2){
+//         if(arr[i]%2 == 0){
+//             console.log(arr[i]);
+//         }
+//     }
+// }
+// var arr = [13,23,12,45,22,48,66,100]
+// EvenNumber(arr)
+function printEven(arr) {
+    for (var i=0;i<arr.length;i++){
+      if(arr[i]%2==0){
+        console.log(arr[i]); //print even number
+      }  
     }
-}
-var arr = [[1, 3, 5, 7, 8, 6], [4, 8, 7], [5, 6], [6, 8, 5]]
-printArray(arr)
+  }
+  var arr = [13,23,12,45,22,48,66,100]
+  
+  printEven(arr) //12 22 48 66 100
