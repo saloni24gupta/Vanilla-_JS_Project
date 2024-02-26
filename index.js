@@ -74,7 +74,7 @@ function printArray(arr){
     for(var i=0; i<arr.length; i++){
         console.log("i am from i" + "  " + arr[i])
         for(var j=0; j<arr[0].length; j++){
-            console.log(arr[j])
+            console.log(arr[i][j])
 // console.log(j)        
         }
     }
