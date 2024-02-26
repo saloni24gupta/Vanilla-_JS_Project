@@ -63,9 +63,21 @@ document.addEventListener('DOMContentLoaded', UI.addBookToList);
 // for(let i=0; i<=10; i++) {
 //     console.log(i)
 // }
-function printNumbers(){
-for(let i=0; i<10; i++) {
-    console.log(i+1)
+// function printNumbers(){
+// for(let i=0; i<10; i++) {
+//     console.log(i+1)
+// }
+// }
+// printNumbers()
+
+function printArray(arr){
+    for(var i=0; i<arr.length; i++){
+        console.log("i am from i" + "  " + arr[i])
+        for(var j=0; j<arr[0].length; j++){
+            console.log(arr[j])
+// console.log(j)        
+        }
+    }
 }
-}
-printNumbers()
+var arr = [[1, 3, 5, 7, 8, 6], [4, 8, 7], [5, 6], [6, 8, 5]]
+printArray(arr)
