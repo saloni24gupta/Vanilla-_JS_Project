@@ -123,12 +123,27 @@
 
 // TimeOutFun()
 
-function numPower(num,pow) {
-  var res=1; //return 1 for pow=0
-  for(var i=0;i<pow;i++){
-     res=res*num;
+// function numPower(num,pow) {
+//   var res=1; //return 1 for pow=0
+//   for(var i=0;i<pow;i++){
+//      res=res*num;
+//   }
+//   return res;
+// }
+// console.log(numPower(4,0)); //64
+// console.log(numPower(16,2)); //256
+
+function printPattern(range){
+  for(var i=1;i<=range;i++){
+    var str="";
+    // console.log("i am from i" + i)
+    for(var j=1; j<=i;j++){
+      // console.log("i m form j" + j)
+      str += j+" ";
+    }
+console.log(str)
   }
-  return res;
 }
-console.log(numPower(4,3)); //64
-console.log(numPower(16,2)); //256
+printPattern(8)
+
+
