@@ -90,13 +90,25 @@
 // }
 // var arr = [13,23,12,45,22,48,66,100]
 // EvenNumber(arr)
-function printEven(arr) {
-    for (var i=0;i<arr.length;i++){
-      if(arr[i]%2==0){
-        console.log(arr[i]); //print even number
-      }  
-    }
-  }
-  var arr = [13,23,12,45,22,48,66,100]
+// function printEven(arr) {
+//     for (var i=0;i<arr.length;i++){
+//       if(arr[i]%2==0){
+//         console.log(arr[i]); //print even number
+//       }  
+//     }
+//   }
+  var arr = [[12, 343, 45] ,13,23,12,45,22,48,66,100]
   
-  printEven(arr) //12 22 48 66 100
+  // printEven(arr) //12 22 48 66 100
+function deleteElement(arr, ele) {
+ for(var i=0; i<arr.length; i++){
+  console.log(arr);
+  if(arr[i] == ele){
+    arr.splice(i, 1);
+  }
+ }
+ return arr;
+
+}
+
+arr = deleteElement(arr, 45)
