@@ -146,12 +146,27 @@
 // }
 // printPattern(8)
 
-function sum() {
-  var sum = 0 ;
-  for(var i=1; i<=10; i++){
-    console.log("i m from i" + i);
-    console.log("i am from sum" +  sum)
-    console.log(sum +=i)
+// function sum() {
+//   var sum = 0 ;
+//   for(var i=1; i<=10; i++){
+//     console.log("i m from i" + i);
+//     console.log("i am from sum" +  sum)
+//     console.log(sum +=i)
+//   }
+// }
+// sum()
+
+function printpattern(range) {
+for (var i=1;i<=range;i++){
+  var str = " ";
+ console.log("i m from i" + i)
+  for(var j=1;j<=i;j++){
+   console.log("i m fro j " + j)
+    // str += j+"H "
+  str += j+" "
   }
+console.log("i m fro str3" + str)
 }
-sum()
+}
+
+printpattern(4)
