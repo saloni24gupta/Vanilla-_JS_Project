@@ -133,17 +133,25 @@
 // console.log(numPower(4,0)); //64
 // console.log(numPower(16,2)); //256
 
-function printPattern(range){
-  for(var i=1;i<=range;i++){
-    var str="";
-    // console.log("i am from i" + i)
-    for(var j=1; j<=i;j++){
-      // console.log("i m form j" + j)
-      str += j+" ";
-    }
-console.log(str)
+// function printPattern(range){
+//   for(var i=1;i<=range;i++){
+//     var str="";
+//     // console.log("i am from i" + i)
+//     for(var j=1; j<=i;j++){
+//       // console.log("i m form j" + j)
+//       str += j+" ";
+//     }
+// console.log(str)
+//   }
+// }
+// printPattern(8)
+
+function sum() {
+  var sum = 0 ;
+  for(var i=1; i<=10; i++){
+    console.log("i m from i" + i);
+    console.log("i am from sum" +  sum)
+    console.log(sum +=i)
   }
 }
-printPattern(8)
-
-
+sum()
