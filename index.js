@@ -97,18 +97,38 @@
 //       }  
 //     }
 //   }
-  var arr = [[12, 343, 45] ,13,23,12,45,22,48,66,100]
+  // var arr = [[12, 343, 45] ,13,23,12,45,22,48,66,100]
   
   // printEven(arr) //12 22 48 66 100
-function deleteElement(arr, ele) {
- for(var i=0; i<arr.length; i++){
-  console.log(arr);
-  if(arr[i] == ele){
-    arr.splice(i, 1);
+// function deleteElement(arr, ele) {
+//  for(var i=0; i<arr.length; i++){
+//   console.log(arr);
+//   if(arr[i] == ele){
+//     arr.splice(i, 1);
+//   }
+//  }
+//  return arr;
+
+// }
+
+// arr = deleteElement(arr, 45)
+// var arr = [[12, 343, 45] ,13,23,12,45,22,48,66,100]
+// function TimeOutFun(arr) {
+//   for(var i=0; i<7; i++){
+//     setTimeout(() => {
+//       console.log(i)
+//     }, 5000)
+//   }
+// }
+
+// TimeOutFun()
+
+function numPower(num,pow) {
+  var res=1; //return 1 for pow=0
+  for(var i=0;i<pow;i++){
+     res=res*num;
   }
- }
- return arr;
-
+  return res;
 }
-
-arr = deleteElement(arr, 45)
+console.log(numPower(4,3)); //64
+console.log(numPower(16,2)); //256
