@@ -169,4 +169,35 @@ console.log("i m fro str3" + str)
 }
 }
 
-printpattern(4)
+
+
+// printpattern(4)
+
+// const car = ["BMW", "Volvo", "SAab", "Ford", "Marcides", "odi"]
+// function Arrayfun(car) {
+//   for(var i=0;i<car.length;i++){
+//     let text = "";
+//     text +=car[i]
+//     console.log(car[i])
+//   }
+// }
+// Arrayfun(car)
+
+let obj = {
+  Harry: 90,
+  shubham: 30,
+  anu: 45,
+  saloni:60,
+  shivani: 100
+}
+
+console.log(obj)
+
+for(let a in obj){
+  console.log(a)
+  console.log(obj[a])
+}
+
+for( let b of "HARRY"){
+  console.log(b)
+}
