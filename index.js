@@ -156,48 +156,91 @@
 // }
 // sum()
 
-function printpattern(range) {
-for (var i=1;i<=range;i++){
-  var str = " ";
- console.log("i m from i" + i)
-  for(var j=1;j<=i;j++){
-   console.log("i m fro j " + j)
-    // str += j+"H "
-  str += j+" "
-  }
-console.log("i m fro str3" + str)
-}
-}
-
-
-
-// printpattern(4)
-
-// const car = ["BMW", "Volvo", "SAab", "Ford", "Marcides", "odi"]
-// function Arrayfun(car) {
-//   for(var i=0;i<car.length;i++){
-//     let text = "";
-//     text +=car[i]
-//     console.log(car[i])
+// function printpattern(range) {
+// for (var i=1;i<=range;i++){
+//   var str = " ";
+//  console.log("i m from i" + i)
+//   for(var j=1;j<=i;j++){
+//    console.log("i m fro j " + j)
+//     // str += j+"H "
+//   str += j+" "
 //   }
+// console.log("i m fro str3" + str)
 // }
-// Arrayfun(car)
+// }
 
-let obj = {
-  Harry: 90,
-  shubham: 30,
-  anu: 45,
-  saloni:60,
-  shivani: 100
-}
 
-console.log(obj)
 
-for(let a in obj){
-  console.log(a)
-  console.log(obj[a])
-}
+// // printpattern(4)
 
-for( let b of "HARRY"){
-  console.log(b)
+// // const car = ["BMW", "Volvo", "SAab", "Ford", "Marcides", "odi"]
+// // function Arrayfun(car) {
+// //   for(var i=0;i<car.length;i++){
+// //     let text = "";
+// //     text +=car[i]
+// //     console.log(car[i])
+// //   }
+// // }
+// // Arrayfun(car)
+
+// let obj = {
+//   Harry: 90,
+//   shubham: 30,
+//   anu: 45,
+//   saloni:60,
+//   shivani: 100
+// }
+
+// console.log(obj)
+
+// for(let a in obj){
+//   console.log(a)
+//   console.log(obj[a])
+// }
+
+// for( let b of "HARRY"){
+//   console.log(b)
+// }
+// let n = prompt("Enter the value of n")
+// n = Number.parseInt(n)
+// let i =0;
+// while(i<n){
+//   console.log("The number is " + i)
+//   i++;
+// }
+
+// let n = 0;
+// let x = 0;
+
+// while (n < 3) {
+//   n++;
+//   x += n;
+// }
+
+
+// let n = prompt("enter the value of n");
+// n = Number.parseInt(n);
+
+// let i = 10 ;
+// do{
+//   console.log(i)
+//   i++;
+// }while(i<n);
+//  let n = prompt("enter the value of n");
+//  n = Number.parseInt(n);
+// let i =1;
+// do{
+//   console.log(i)
+//   i++
+// }
+// while(i<=n)
+
+// program to display numbers from 1 to 5
+// initialize the variable
+let i = 1, n = 10;
+
+// while loop from i = 1 to 5
+while (i <= n) {
+    console.log(i);
+    i += 2;
 }
