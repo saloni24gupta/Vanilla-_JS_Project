@@ -277,7 +277,37 @@
       aakash: 46,
       hari: 98
     }
-    console.log(marks)
-    for(let i=0; i<Object.keys(marks).length;i++){
-      console.log("The marks of" + Object.keys(marks)[i] + "are" + marks[Object.keys(marks)[i]])
-    }
+    // console.log(marks)
+    // for(let i=0; i<Object.keys(marks).length;i++){
+    //   console.log("The marks of" + Object.keys(marks)[i] + "are" + marks[Object.keys(marks)[i]])
+    // }
+
+    // for (let key in marks) {
+    //   console.log("The marks of" + key + "are" + marks[key])
+    // console.log(marks[key])
+    // }
+
+  // let cn = 4
+  // let i
+  // while(i != cn){
+  //   i = prompt("Enter a number")
+  // }
+
+  // function expfun(a ,b){
+  //   if(a>10 && b<20) {
+  //     console.log("valid age")
+  //   }
+  //   else {
+  //     console.log("age is not valid")
+  //   }
+  // }
+  // expfun(10, 15)
+let class_Student = [91, 82, 73, 63, 54, 43]
+// console.log(class_Student)
+// for(let i=0; i<class_Student.length; i++){
+//   console.log(class_Student[i])
+// }
+
+for(let arr of class_Student){
+  console.log(arr)
+}
