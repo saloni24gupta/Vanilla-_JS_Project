@@ -237,27 +237,47 @@
 
 // program to display numbers from 1 to 5
 // initialize the variable
-let i = 1, n = 10;
+// let i = 1, n = 10;
 
-// while loop from i = 1 to 5
-while (i <= n) {
+// // while loop from i = 1 to 5
+// while (i <= n) {
 
-    console.log(i);
-    i += 2;
-}
-let fr = "SALONI"
-for(let data of fr) {
-  console.log(data)
-}
+//     console.log(i);
+//     i += 2;
+// }
+// let fr = "SALONI"
+// for(let data of fr) {
+//   console.log(data)
+// }
 
-for (let i=0; i<fr.length;i++ ){
-  console.log(fr[i])
-}
+// for (let i=0; i<fr.length;i++ ){
+//   console.log(fr[i])
+// }
 
-let arr = "har\" ".trim(); 
-for(let i=0;i<arr.length; i++){
-  console.log(arr[i])}
+// let arr = "har\" ".trim(); 
 
-  let name = "HARIDAS"
-  console.log(name.startwith(H))
-  
+// for(let i=0;i<arr.length; i++){
+//   console.log(arr[i])}
+
+//   var name = "HARIDAS"
+//   console.log(name.startsWith("H"))
+// console.log(name.endsWith("S"))  
+// console.log( 
+//   data = name.toLowerCase() )
+//   console.log(data)
+
+//   console.log( 
+//     dataup = name.toUpperCase() )
+//     console.log(data)
+//     console.log(name)
+
+    let marks = {
+      harry: 98,
+      rohan: 70,
+      aakash: 46,
+      hari: 98
+    }
+    console.log(marks)
+    for(let i=0; i<Object.keys(marks).length;i++){
+      console.log("The marks of" + Object.keys(marks)[i] + "are" + marks[Object.keys(marks)[i]])
+    }
