@@ -241,6 +241,23 @@ let i = 1, n = 10;
 
 // while loop from i = 1 to 5
 while (i <= n) {
+
     console.log(i);
     i += 2;
 }
+let fr = "SALONI"
+for(let data of fr) {
+  console.log(data)
+}
+
+for (let i=0; i<fr.length;i++ ){
+  console.log(fr[i])
+}
+
+let arr = "har\" ".trim(); 
+for(let i=0;i<arr.length; i++){
+  console.log(arr[i])}
+
+  let name = "HARIDAS"
+  console.log(name.startwith(H))
+  
