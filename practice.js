@@ -25,3 +25,15 @@ function EvenOdd(num) {
   }
 }
 EvenOdd(1011)
+
+// q3 Write a program to determine the greater of two numbers.
+function TwoGreaterNum(a,b) {
+    if(a>b && b<a) {
+        console.log("a is greater")
+    }
+    else if(b>a && a<b){
+        console.log("b is greater")
+    }
+
+}
+TwoGreaterNum(157, 117)
