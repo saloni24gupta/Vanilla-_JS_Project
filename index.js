@@ -302,12 +302,27 @@
   //   }
   // }
   // expfun(10, 15)
-let class_Student = [91, 82, 73, 63, 54, 43]
+// let class_Student = [91, 82, 73, 63, 54, 43]
 // console.log(class_Student)
 // for(let i=0; i<class_Student.length; i++){
 //   console.log(class_Student[i])
 // }
 
-for(let arr of class_Student){
-  console.log(arr)
-}
+// for(let arr of class_Student){
+//   console.log(arr)
+// }
+
+// function testNum(c){
+//   let result;
+//   if(c>0){
+//     result = 'positive'
+//     console.log("no is positive");
+
+//   } else {
+//     result = 'result is negative Possilble'
+//     console.log('negative')
+//   }
+//   console.log(result)
+// }
+
+// testNum(-55)
