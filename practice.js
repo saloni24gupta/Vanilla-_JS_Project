@@ -69,5 +69,28 @@ function Transnumtletter(num) {
 
    
 }
-Transnumtletter(89)
+// Transnumtletter(89) 
+
+// qwestion 5 Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+function TicketPrice(age) {
+    var Rupess;
+    if(age < 12){
+    Rupess = 5
+    console.log(Rupess)
+    }
+    else if(age < 18) {
+        Rupess = 10
+    }
+    else if (age < 60) {
+        Rupess = 20
+    }
+
+    else if(age > 60) {
+        Rupess = 15
+    }
+ 
+console.log(Rupess)
+}
+
+TicketPrice(5);
 
