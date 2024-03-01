@@ -37,3 +37,37 @@ function TwoGreaterNum(a,b) {
 
 }
 TwoGreaterNum(157, 117)
+
+// question 4 Write a program that transforms a numerical grade to a letter grade (e.g grade 10 should display “A”).
+function Transnumtletter(num) {
+   
+    let grade;
+    if(num >= 90){
+        console.log("grade A")
+        grade = 'A';
+    }
+    else if(num >= 80) {
+        console.log("gradeB")
+        grade = 'B'
+    }
+    else if(num >= 70){
+        console.log("grade C")
+        grade = 'C'
+    }
+    else if(num >= 60) {
+        console.log("grade D")
+        grade = 'D'
+    }
+    else if(num >= 50) {
+        console.log("grade F")
+        grade = 'F'
+    }
+    else {
+        grade = 'Fail'
+    }
+    console.log("grade is :" + grade)
+
+   
+}
+Transnumtletter(89)
+
