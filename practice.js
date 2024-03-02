@@ -121,3 +121,9 @@
 //   console.log(discount)
 // }
 // discount(5)
+// console.log(document.body.firstChild)
+// let a = document.body.firstChild;
+// console.log(a.firstChild)
+
+let t = document.body.firstElementChild.firstElementChild
+console.log(t.rows)
