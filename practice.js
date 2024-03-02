@@ -94,13 +94,30 @@
 
 // TicketPrice(5);
 // Write a program that determines if a year is a leap year.
-function leapYear(year) {
-   let result;
-    if(year%4 == 0 && (year % 100 !== 0 || year % 400 === 0)){
-result = 'Year is leap year'
-    } else {
-  result = 'Year is not leap year'
-    }
-    console.log(result)
-}
-leapYear(2024)
+// function leapYear(year) {
+//    let result;
+//     if(year%4 == 0 && (year % 100 !== 0 || year % 400 === 0)){
+// result = 'Year is leap year'
+//     } else {
+//   result = 'Year is not leap year'
+//     }
+//     console.log(result)
+// }
+// leapYear(2024)
+
+//question 7 Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 discount have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+// function discount() {
+//   let price;
+//   if(price >= 100){
+//     discount = 20;
+//   }
+//   else if(price >= 50){
+//     discount = 10;
+//   }
+//   else {
+//     discount = 0;
+//   }
+//   console.log(discount)
+// }
+// discount(5)
