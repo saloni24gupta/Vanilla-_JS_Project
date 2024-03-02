@@ -125,5 +125,16 @@
 // let a = document.body.firstChild;
 // console.log(a.firstChild)
 
-let t = document.body.firstElementChild.firstElementChild
-console.log(t.rows)
+// let t = document.body.firstElementChild.firstElementChild
+// console.log(t.rows)
+
+// let id1 = document.getElementById("box1")
+// console.log(id1.matches(".box"))
+
+let a= first.getAttribute("class")
+console.log(a)
+let b = first.hasAttribute("class")
+console.log(b)
+// check krta hai attitrue hai to true ni hai to  false
+let c = first.hasAttribute("style")
+console.log(c)
