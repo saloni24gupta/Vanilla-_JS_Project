@@ -4,3 +4,100 @@
     margin: 10px;
     padding: 5px;
 }
+.red {
+    background-color: red;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: width 5s;
+}
+.box:hover {
+    width: 300px;;
+}
+
+input[type="text"] {
+width: 100px;
+transition: width .3s ease-in-out;
+}
+
+.a{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+}
+.b{
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: skewY(20deg);
+}
+
+.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: scale(1.5);
+}
+
+.transition-timing-function{
+    width: 100wh;
+    height: 100vh;
+    background-color: aliceblue;
+   
+}
+.transition-timing-function div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    transition: width 2s;
+    margin: 10px;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+#div2 {transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+#div3 {transition-timing-function: cubic-bezier(0.42,0,1,1);}
+#div4 {transition-timing-function: cubic-bezier(0,0,0.58,1);}
+#div5 {transition-timing-function: cubic-bezier(0.42,0,0.58,1);}
+.transition-timing-function div:hover {
+    width: 300px;
+}
+
+#grad1 {
+    height: 200px;
+    background-image: linear-gradient(red, yellow, blue);
+}
+.lGradient {
+    height: 200px;
+    background-image: linear-gradient(to right, red, blue);
+}
+.lGradient1 {
+    height: 200px;
+    background-image: linear-gradient(to bottom, red, blue);
+}
+
+#mycon1 {
+height: 100px;
+background-image: linear-gradient(0deg, red, blue);
+}
+
+
+#mycon2 {
+    height: 100px;
+    background-image: linear-gradient(90deg, red, blue);
+    }
+
+    #mycon3 {
+        height: 100px;
+        background-image: linear-gradient(180deg, red, blue);
+        }
+
+        #mycon4 {
+            height: 100px;
+            background-image: linear-gradient(-90deg, red, blue);
+            }

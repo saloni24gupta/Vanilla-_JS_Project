@@ -161,12 +161,20 @@
 // a.appendChild(div)
 
 var div = document.getElementById("mydiv")
-
-for(let i = 0; i<10; i++){
-  var container = document.createElement('div');
-  var textNdode = 'I AM FROM DIV THIS IS MY FIRST HERE'
-  container.append(textNdode)
-  div.append(container)
-  console.log(div)
-  container.setAttribute('class', 'mydiv')
+function creatediv() {
+    for(let i = 0; i<10; i++){
+        var container = document.createElement('div');
+        var textNdode = 'I AM FROM DIV THIS IS MY FIRST HERE'
+        container.append(textNdode)
+        div.append(container)
+        console.log(div)
+        container.setAttribute('class', 'mydiv')
+      }
 }
+var button = document.getElementById("button")
+// creatediv()
+
+
+
+
+
