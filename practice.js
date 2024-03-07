@@ -131,10 +131,42 @@
 // let id1 = document.getElementById("box1")
 // console.log(id1.matches(".box"))
 
-let a= first.getAttribute("class")
-console.log(a)
-let b = first.hasAttribute("class")
-console.log(b)
-// check krta hai attitrue hai to true ni hai to  false
-let c = first.hasAttribute("style")
-console.log(c)
+// let a= first.getAttribute("class")
+// console.log(a)
+// let b = first.hasAttribute("class")
+// console.log(b)
+// // check krta hai attitrue hai to true ni hai to  false
+// let c = first.hasAttribute("style")
+// console.log(c)
+
+// let x = document.getElementById('first')
+// let y = document.getElementsByTagName('span')
+// console.log(y[0].innerHTML)
+// console.dir(y[0].innerHTML)
+// console.log(x)
+// console.log(document.getElementsByTagName('span')[0])
+
+// console.log(first.dataset)
+// let a = document.getElementsByTagName()
+
+// let a = document.getElementsByTagName('div')[0]
+// a.innerHTML  = a.innerHTML + '<h3>HELLO WORLD</h3>'
+// // a.innerHTML =    a.innerHTML + '<h1>HELLO WORLD</h1>'
+
+// let div = document.createElement('div')
+// div.innerHTML = '<h1>HELLO WORLD CLASS I SME</h1>'
+// console.log(div)
+// div.setAttribute("Class", "mj5 my-4 mx-3 flex" )
+// div.setAttribute("style", "border: 2px solid red")
+// a.appendChild(div)
+
+var div = document.getElementById("mydiv")
+
+for(let i = 0; i<10; i++){
+  var container = document.createElement('div');
+  var textNdode = 'I AM FROM DIV THIS IS MY FIRST HERE'
+  container.append(textNdode)
+  div.append(container)
+  console.log(div)
+  container.setAttribute('class', 'mydiv')
+}
