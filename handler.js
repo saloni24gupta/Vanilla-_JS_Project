@@ -11,4 +11,10 @@ let y = function(e) {
 
 BBTN.addEventListener('click', y) 
 
-BBTN.removeEventListener('click',x )
+BBTN.removeEventListener('click',x  )
+
+
+setInterval(async function() {
+    var a = document.getElementById("bulb");
+    a.classList.toggle("bulb")
+}, 300)
