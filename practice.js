@@ -160,21 +160,30 @@
 // div.setAttribute("style", "border: 2px solid red")
 // a.appendChild(div)
 
-var div = document.getElementById("mydiv")
-function creatediv() {
-    for(let i = 0; i<10; i++){
-        var container = document.createElement('div');
-        var textNdode = 'I AM FROM DIV THIS IS MY FIRST HERE'
-        container.append(textNdode)
-        div.append(container)
-        console.log(div)
-        container.setAttribute('class', 'mydiv')
-      }
-}
-var button = document.getElementById("button")
+// var div = document.getElementById("mydiv")
+// function creatediv() {
+//     for(let i = 0; i<10; i++){
+//         var container = document.createElement('div');
+//         var textNdode = 'I AM FROM DIV THIS IS MY FIRST HERE'
+//         container.append(textNdode)
+//         div.append(container)
+//         console.log(div)
+//         container.setAttribute('class', 'mydiv')
+//       }
+// }
+// var button = document.getElementById("button")
 // creatediv()
 
+// setTimeout(function() {
+//   alert("hello")
+// }, 2000)
 
 
 
+// let a = document.getElementsByClassName("")
+let a = document.getElementsByClassName("container5")[0]
+a.onClick = () => {
+  let b = document.getElementsByClassName("container5")[0]
+  b.innerHTML = "HELLO WOLRD"
+}
 
